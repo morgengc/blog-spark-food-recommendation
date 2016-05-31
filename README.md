@@ -33,4 +33,4 @@ sbt
 ```
 Any stage could be interrupted due to unknown reason. Retry these commonds until success.
 
-**Note**: This project use Apache Spark, which is integrated in this project. Existing Spark has no effect with this project.
+**Note**: This project use Apache Spark, which is integrated in the project. Outer Spark has no effect with this project.
