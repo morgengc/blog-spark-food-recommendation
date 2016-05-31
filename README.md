@@ -9,9 +9,11 @@ Setup
 
 You will need:
 
-* Scala 2.10+ (sbt will install it automatically)
-* Play Framework (sbt will install it automatically)
-* MongoDB (install it manually)
+* Scala 2.10+
+* Play Framework
+* MongoDB
+
+Scala and Play Framework will be automatically installed by `sbt` stage, while MongoDB should be installed manually.
 
 Download the food review file (500K reviews) using the `download.sh` script.
 
@@ -29,4 +31,4 @@ sbt
 [blog-spark-recommendation] $ package
 [blog-spark-recommendation] $ run 9010
 ```
-Any stage could be interrupted due to unkonwn reason. Retry these commond until it success.
+Any stage could be interrupted due to unknown reason. Retry these commonds until success.
