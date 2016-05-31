@@ -13,7 +13,7 @@ You will need:
 * Play Framework
 * MongoDB
 
-Scala and Play Framework will be automatically installed by `sbt` stage, while MongoDB should be installed manually.
+Scala and Play Framework will be automatically installed by `sbt` command, while MongoDB should be installed **manually**.
 
 Download the food review file (500K reviews) using the `download.sh` script.
 
@@ -32,3 +32,5 @@ sbt
 [blog-spark-recommendation] $ run 9010
 ```
 Any stage could be interrupted due to unknown reason. Retry these commonds until success.
+
+**Note**: This project use Apache Spark, which is integrated in this project. Existing Spark has no effect with this project.
